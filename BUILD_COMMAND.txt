@@ -1,0 +1,10 @@
+Windows MinGW / g++:
+g++ -std=c++17 main.cpp Product.cpp Person.cpp Customer.cpp Supplier.cpp Sale.cpp FileManager.cpp GroceryStore.cpp -o GroceryStoreManagement.exe
+
+Run:
+.\run.bat
+
+Visual Studio:
+Create a Console C++ project and add all .cpp and .h files. Set C++ Language Standard to C++17 or later.
+
+

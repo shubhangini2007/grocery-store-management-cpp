@@ -1,0 +1,17 @@
+15 SUGGESTED TEST CASES
+
+T01 Add a valid product -> product appears in display.
+T02 Add duplicate product ID -> error shown and record not added.
+T03 Display products -> all products displayed.
+T04 Search existing product -> correct product displayed.
+T05 Search non-existing product -> not found message.
+T06 Update existing product -> changed values displayed.
+T07 Delete existing product -> product disappears.
+T08 Add valid customer -> customer appears in display.
+T09 Add valid supplier -> supplier appears in display.
+T10 Sell valid quantity -> bill generated and stock decreases.
+T11 Sell quantity greater than stock -> transaction rejected.
+T12 Calculate/report revenue -> report shows number of sales and revenue.
+T13 Save data -> data files are updated.
+T14 Close and reopen -> previous records are loaded.
+T15 Invalid menu/input -> program does not crash and asks again.
